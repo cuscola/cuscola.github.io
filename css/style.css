@@ -740,11 +740,12 @@ form label {
   zoom: 1;
   *display: inline;
 }
-#gtco-testimonial .testimony-slide figure img {
-  width: 90px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
+#gtco-testimonial .testimony-slide figure div {
+  width: 350px;
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 50%;
 }
 #gtco-testimonial .testimony-slide blockquote {
@@ -1393,3 +1394,23 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.advantage {
+  height: 550px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center
+}
+
+.product {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 900px;
+}
+
+@media screen and (max-width: 768px) {
+  .product {
+    display: none;
+  }
+}
